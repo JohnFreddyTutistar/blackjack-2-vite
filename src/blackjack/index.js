@@ -1,6 +1,6 @@
-import { crearDeck } from "../usesCases/crear-deck";
-import { pedirCarta } from "../usesCases/pedir-carta";
-import { valorCarta } from "../usesCases/valor-carta";
+import _ from 'underscore'
+
+import {crearDeck, pedirCarta, valorCarta} from './usesCases'
 
 /**
  * 2C = Two of Clubs
